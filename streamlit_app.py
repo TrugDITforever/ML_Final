@@ -6,7 +6,7 @@ import datetime
 import matplotlib.pyplot as plt
 
 # Load model and scaler
-model = joblib.load("polynomial_temperature_model.pkl")
+model = joblib.load("poly_model_deg3.pkl")
 scaler = joblib.load("temperature_scaler.pkl")
 
 st.title("🌡️ Temperature Forecast in Đà Nẵng")
